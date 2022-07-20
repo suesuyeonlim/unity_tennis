@@ -21,11 +21,17 @@ Download the environment from one of the links below. You need only select the e
 - Windows (32-bit): click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86.zip)
 - Windows (64-bit): click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86_64.zip)
 
-Place the file in the DRLND GitHub repository, in the p2_continuous-control/ folder, and unzip (or decompress) the file.
+Place the file in the reacher_ddpg/ folder, and unzip (or decompress) the file.
 
-In a terminal or command window, navigate to the top-level project directory reacher-rl/ (that contains this README) and run the following command:
+In a terminal or command window, navigate to the top-level project directory reacher_ddpg/ (that contains this README) and run the following command:
 
 ```
 $ jupyter notebook
 ```
 This will open the Jupyter Notebook software and notebook in your browser which you can use to explore and reproduce the experiments that have been run.
+
+## Code and Resources
+- report.pdf: A document that describes the details of the implementation and things to explore in the future.
+- Continuous_Control.ipynb: Training the agent using the DDPG algorithm.
+- test.py: Entry point for testing the agent using the trained networks.
+- dqn.pth, policy.pth: Model weights.
