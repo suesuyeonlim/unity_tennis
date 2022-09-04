@@ -76,6 +76,7 @@ Place the file in the unity_tennis/apps/ folder, and unzip (or decompress) the f
   This will open the Jupyter Notebook software and notebook in your browser which you can use to explore and reproduce the experiments that have been run.
 
 ## Code and Resources
-- Report.ipnyb: A document that describes the results, details of the implementation, and things future ideas.
+- Report.ipynb: A document that describes the results, details of the implementation, and things future ideas.
+- Play Example.ipynb: A document where you can see the play of the agents trained with a DDPG algorithm.
 - MAPPO: A folder that contains the PPO code and trained model weights.
 - MADDPG: A folder that contains the DDPG code and trained model weights.
