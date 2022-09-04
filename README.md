@@ -1,15 +1,20 @@
-<<<<<<< HEAD
-# Udacity - Deep Reinforcement Learning Nanodegree (Continuous Control)
+# Udacity - Deep Reinforcement Learning Nanodegree (Collaboration and Competition)
 
 
 ## Project Description
-This project involves working with the Reacher environment. In this environment, a double-jointed arm can move to target locations. There are 1,000 time steps and a reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of the agent is to maintain its position at the target location for as many time steps as possible.
+This project involves working with the Tennis environment. In this environment, two agents control rackets to bounce a ball over a net. If an agent hits the ball over the net, it receives a reward of +0.1. If an agent lets a ball hit the ground or hits the ball out of bounds, it receives a reward of -0.01. Thus, the goal of each agent is to keep the ball in play.
 
-The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1.
+The observation space consists of 8 variables corresponding to the position and velocity of the ball and racket. Each agent receives its own, local observation. Two continuous actions are available, corresponding to movement toward (or away from) the net, and jumping.
 
-![43851024-320ba930-9aff-11e8-8493-ee547c6af349 (1)](https://user-images.githubusercontent.com/19903898/179446479-29bb5eea-5812-4110-9030-db56188c3369.gif)
+Untrained
 
-The assignment is to train a single agent or 20 agents in parallel to get an average score of 30+ over 100 consecutive episodes.
+![Alt Text](https://media.giphy.com/media/paJEEd7bCXdDK7ebcB/giphy.gif)
+
+Trained
+
+![Alt Text](https://media.giphy.com/media/ttdcNRnXx8XZJSywmu/giphy.gif)
+
+The assignment is to train agents to get an average score of 0.5 over 100 consecutive episodes.
 
 
 ## Python Environment Set-Up
@@ -33,8 +38,8 @@ To set up your python environment to run the code in this repository, follow the
 3. Clone the repository and navigate to the root folder.
   
   ```
-  git clone https://github.com/suesuyeonlim/unity_reacher.git
-  cd unity_reacher
+  git clone https://github.com/suesuyeonlim/unity_tennis.git
+  cd unity_tennis
   ```
 
 ## Requirements to Run the Code in Repository
@@ -42,19 +47,12 @@ In order to prepare the environment, follow the next steps after downloading thi
 
 1. Download the environment from one of the links below. You need only select the environment that matches your operating system:
 
-Version 1: One (1) Agent
-  - Linux: click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip)
-  - Mac OSX: click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher.app.zip)
-  - Windows (32-bit): click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86.zip)
-  - Windows (64-bit): click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86_64.zip)
-
-Version 2: Twenty (20) Agents
-  - Linux: click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux.zip)
-  - Mac OSX: click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher.app.zip)
-  - Windows (32-bit): click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86.zip)
-  - Windows (64-bit): click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86_64.zip)
+  - Linux: click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
+  - Mac OSX: click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip)
+  - Windows (32-bit): click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86.zip)
+  - Windows (64-bit): click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip)
   
-Place the file in the unity_reacher/reacher_apps/ folder, and unzip (or decompress) the file(s).
+Place the file in the unity_tennis/apps/ folder, and unzip (or decompress) the file(s).
 
 2. To install the mlagents Python package, run from the command line:
   
@@ -79,8 +77,5 @@ Place the file in the unity_reacher/reacher_apps/ folder, and unzip (or decompre
 
 ## Code and Resources
 - Report.pdf: A document that describes the results, details of the implementation, and things future ideas.
-- ppo_solutions: A folder that contains the PPO code and trained model weights.
-- ddpg_solutions: A folder that contains the DDPG code and trained model weights.
-=======
-# unity_tennis
->>>>>>> refs/remotes/origin/main
+- MAPPO: A folder that contains the PPO code and trained model weights.
+- MADDPG: A folder that contains the DDPG code and trained model weights.
