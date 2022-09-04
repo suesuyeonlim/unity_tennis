@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Udacity - Deep Reinforcement Learning Nanodegree (Continuous Control)
 
 
@@ -80,3 +81,6 @@ Place the file in the unity_reacher/reacher_apps/ folder, and unzip (or decompre
 - Report.pdf: A document that describes the results, details of the implementation, and things future ideas.
 - ppo_solutions: A folder that contains the PPO code and trained model weights.
 - ddpg_solutions: A folder that contains the DDPG code and trained model weights.
+=======
+# unity_tennis
+>>>>>>> refs/remotes/origin/main
